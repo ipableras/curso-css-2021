@@ -3,6 +3,8 @@
 /* 
     Selectores Simples
         Selectores elementales
+            Selector Universal -> *
+            Selector de tipo o etiqueta -> Nombre de la etiqueta
         Selectores de atributo
             
     Selectores Compuestos
@@ -10,4 +12,26 @@
         Selectores Combinadores
         Pseudoclases - Pseudoelementos
 */
+
+/*Aquí hay que usarlo con cuidado*/
+*{
+    background-color: lightcoral;
+}
+
+h1{
+    background-color: lightcyan;
+}
+
+p{
+    background-color: lightgreen;
+}
+
+ul{
+    background-color: red;
+}
+
+li{
+    background-color: blue;
+}
+
 
