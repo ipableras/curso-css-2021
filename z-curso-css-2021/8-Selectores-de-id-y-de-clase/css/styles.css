@@ -1,0 +1,55 @@
+/* SELECTORES */
+
+/* 
+    Selectores Simples
+        Selectores elementales
+            Selector Universal -> *
+            Selector de tipo o etiqueta -> Nombre de la etiqueta
+        Selectores de atributo
+            id -> id del elemento
+            clase -> clase del elemento
+            otros atributos
+            
+    Selectores Compuestos
+        Selectores Agrupados ->
+        Selectores Combinadores
+        Pseudoclases - Pseudoelementos
+*/
+
+/*Aquí hay que usarlo con cuidado*/
+
+/*--------------------- Hay que usar control+Ç ---------------*/
+/* *{
+    background-color: lightcoral;
+}
+
+h1{
+    background-color: lightcyan;
+}
+
+p{
+    background-color: lightgreen;
+}
+
+ul{
+    background-color: red;
+}
+
+li{
+    background-color: blue;
+} */
+
+/* El # (id) es mejor no usarlo*/
+#title{
+    background-color: lightgreen;
+}
+
+/* Este si que es muy tipico . (class)*/
+.title{
+    background-color: lightsalmon;
+}
+
+.text{
+    background-color: limegreen;
+}
+
