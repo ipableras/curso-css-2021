@@ -16,8 +16,9 @@
                 [atributo$=valor]-> Selecciona los elementos cuyo atributo termine con valor
                 [atributo|=valor]-> Selecciona los elementos cuyo atributo comience con valor o valor-
     Selectores Compuestos
-        Selectores Agrupados ->
+        Selectores Agrupados -> Se agrupan los selectores separados por comas y se escribe el estilo una sola vez 
         Selectores Combinadores
+            Selector descendente -> Selecciona un elemento dentro de otro
         
 */
 
@@ -83,9 +84,14 @@ li{
     background-color: magenta;
 } */
 
-.text,
+/* .text,
 .text-2,
 .text-3,
 .text-4{
     background-color: steelblue;
+} */
+
+div .title-2{
+    background-color: teal;
 }
+
