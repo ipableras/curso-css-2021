@@ -34,7 +34,8 @@ h1{
 }
 
 .list-item-extra{
-    color:initial;
+    /*color:initial;*/
+    color: blueviolet;
 }
 
 .title{
